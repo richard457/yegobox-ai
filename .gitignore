@@ -1,0 +1,81 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+.gradle
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+# .packages
+.pub-cache/
+.pub/
+**/apps/main_app/build/
+
+# Web related
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+google-services.json
+android/app/google-services.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+# should be exluded as it contain a google API KEY.
+index.html
+
+# file containg sensitive information
+# config.dart
+firebase_options.dart
+runner/**
+# runner
+# windows
+passwords.yaml
+package_config.json
+
+.yaml
+pubspec_overrides.yaml
+.packages
+.env
+
+android/.gradle
+pubspec.lock
+android/.gradle/7.4/executionHistory/executionHistory.bin
+build
+
+upload-keystore.jks
+upload_certificate.pem
+keystoreBase64
+team-provider-info.json
+py/*
+
+*.XLSX
+*.xlsx
+*.h5
+trained_models/*.pkl
+trained_models/*.h5
+trained_models/
